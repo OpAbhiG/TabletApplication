@@ -1,4 +1,4 @@
-# tablet_degim
+# tablet_app
 
 A new Flutter project.
 
