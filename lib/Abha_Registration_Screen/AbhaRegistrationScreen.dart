@@ -19,9 +19,14 @@ class _AbhaRegistrationScreenState extends State<AbhaRegistrationScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Create ABHA Number Using Aadhaar'),
+        centerTitle: true,
+        backgroundColor: const Color(0xFF243B6D),
+        foregroundColor: Colors.white,
+        title: const Text('Create ABHA Number Using Aadhaar',style: TextStyle(fontWeight: FontWeight.bold,fontSize: 18),),
         elevation: 4,
+
       ),
+
       body: Padding(
         padding: const EdgeInsets.all(16.0),
         child: Column(

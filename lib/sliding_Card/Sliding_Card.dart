@@ -16,11 +16,7 @@ class _DemoAppState extends State<DemoApp> {
       "price": "₹199/-",
     },
     {
-      "title": "Pediatrician",
-      "price": "₹199/-",
-    },
-    {
-      "title": "Child Specialist",
+      "title": "Pediatrician",  // Removed Child Specialist as it's the same
       "price": "₹199/-",
     },
     {
@@ -36,7 +32,55 @@ class _DemoAppState extends State<DemoApp> {
       "price": "₹199/-",
     },
     {
-      "title": "Cardio thoracic Surgeon",
+      "title": "Cardiothoracic Surgeon",  // Fixed spacing in name
+      "price": "₹199/-",
+    },
+    {
+      "title": "Gynecologist",  // Added common specialists below
+      "price": "₹199/-",
+    },
+    {
+      "title": "Orthopedist",
+      "price": "₹199/-",
+    },
+    {
+      "title": "Neurologist",
+      "price": "₹199/-",
+    },
+    {
+      "title": "Psychiatrist",
+      "price": "₹199/-",
+    },
+    {
+      "title": "ENT Specialist",
+      "price": "₹199/-",
+    },
+    {
+      "title": "Dentist",
+      "price": "₹199/-",
+    },
+    {
+      "title": "Ophthalmologist",
+      "price": "₹199/-",
+    },
+    {
+      "title": "Endocrinologist",
+      "price": "₹199/-",
+    },
+    {
+      "title": "Gastroenterologist",
+      "price": "₹199/-",
+    },
+    {
+      "title": "Urologist",
+      "price": "₹199/-",
+    },
+    {
+      "title": "Pulmonologist",
+      "price": "₹199/-",
+    },
+    {
+      "title": "Rheumatologist",
       "price": "₹199/-",
     },
   ];
@@ -53,7 +97,7 @@ class _DemoAppState extends State<DemoApp> {
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
           Container(
-            width: 200,
+            width: 150,
             height: 200,
             decoration: BoxDecoration(
               color: Colors.white,
@@ -82,7 +126,7 @@ class _DemoAppState extends State<DemoApp> {
                 const SizedBox(height: 20),
                 ElevatedButton(
                   style: ElevatedButton.styleFrom(
-                    backgroundColor: Colors.redAccent,
+                    backgroundColor: Colors.red,
                     foregroundColor: Colors.white,
                     shape: RoundedRectangleBorder(
                       borderRadius: BorderRadius.circular(30), // Rounded button corners
