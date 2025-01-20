@@ -16,6 +16,7 @@ publish_to: 'none' # Remove this line if you wish to publish to pub.dev
 # https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
 # In Windows, build-name is used as the major, minor, and patch parts
 # of the product and file versions while build-number is used as the build suffix.
+
 version: 1.0.0+1
 
 environment:
@@ -27,6 +28,7 @@ environment:
 # dependencies can be manually updated by changing the version numbers below to
 # the latest version available on pub.dev. To see which dependencies have newer
 # versions available, run `flutter pub outdated`.
+
 dependencies:
   flutter:
     sdk: flutter
@@ -34,10 +36,28 @@ dependencies:
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
+
   cupertino_icons: ^1.0.8
   scroll_snap_list: ^0.9.1
   google_fonts: ^6.2.1
   carousel_slider: ^5.0.0
+
+#  after ading signin_signup
+  http: ^1.2.2
+  hive:
+  hive_ce: ^2.8.0+2
+  hive_flutter: ^1.1.0
+
+
+#  zego_Vcall
+
+#  zego_uikit: ^2.27.19
+#  zego_uikit_prebuilt_call: ^4.16.16
+
+#  pdf: ^3.11.1
+#  printing: ^5.13.4
+#  image_picker: ^1.1.2
+#  cached_network_image: ^3.4.1
 
 
 
@@ -66,15 +86,12 @@ flutter:
     - assets/btlogo.png
     - assets/doctor.png
     - assets/adharcardBT.png
-    - assets/Dr_Pediatrician.png
-    - assets/Dr_Cardiologist.png
-    - assets/Dr_Oncologist.png
-    - assets/Dr_Dermatologist.png
-    - assets/Dr_Cardiothoracic-Surgeon.png
-    - assets/Dr_Psychiatrist.png
     - assets/PHARMACIST.png
     - assets/phy.png
     - assets/drivingBT.png
+    - assets/btclogo.png
+    - assets/btlogo.png
+    - assets/bkimg.jpg
 
 
 

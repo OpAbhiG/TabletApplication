@@ -8,7 +8,7 @@ plugins {
 android {
     namespace = "com.example.tablet_degim"
     compileSdk = flutter.compileSdkVersion
-    ndkVersion = flutter.ndkVersion
+    ndkVersion = '25.1.89373993'
 
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_1_8
